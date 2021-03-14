@@ -1,1 +1,7 @@
-<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 6v3h4V6H3zm0 4v3h4v-3H3zm0 4v3h4v-3H3zm5 3h4v-3H8v3zm5 0h4v-3h-4v3zm4-4v-3h-4v3h4zm0-4V6h-4v3h4zm1.5 8a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 17V4c.222-.863 1.068-1.5 2-1.5h13c.932 0 1.778.637 2 1.5v13zM12 13v-3H8v3h4zm0-4V6H8v3h4z"/></svg>
+<svg id="Group_12635" data-name="Group 12635" xmlns="http://www.w3.org/2000/svg" width="16.518" height="16.518" viewBox="0 0 16.518 16.518">
+  <g id="Group_12634" data-name="Group 12634">
+    <g id="Group_12633" data-name="Group 12633">
+      <path id="Path_17205" data-name="Path 17205" d="M4.835,17.683H17.683V4.835H4.835Zm5.506-5.506H4.835V10.341h5.506V4.835h1.835v5.506h5.506v1.835H12.177v5.506H10.341ZM3,3H19.518V19.518H3Z" transform="translate(-3 -3)" fill="#b4b4c9" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -31,6 +31,11 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 
+import StrikeThrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough'
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript'
+import InlineCode from '@ckeditor/ckeditor5-basic-styles/src/code'
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock'
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -58,30 +63,33 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+
+	StrikeThrough,
+	Superscript,
+	InlineCode,
+	CodeBlock
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
 			'bold',
 			'italic',
 			'link',
+			'strikethrough',
+			'code',
+			'superscript',
+			'|',
+			'heading',
 			'bulletedList',
 			'numberedList',
-			'|',
-			'outdent',
-			'indent',
-			'|',
-			'uploadImage',
 			'blockQuote',
+			'codeBlock',
 			'insertTable',
+			'uploadImage',
 			'mediaEmbed',
-			'undo',
-			'redo'
 		]
 	},
 	image: {
